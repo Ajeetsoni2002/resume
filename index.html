@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookstore</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png.jpg" alt="Bookstore Logo" height="150" width="150">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact_us.html">Contact</a>
+          </li>
+        </ul>
+        <form class="form-inline ml-auto">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search for books" aria-label="Search">
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <a class="btn btn-outline-primary ml-2" href="#">
+          <img src="https://www.bookswagon.com/productimages/images200/537/9788170089537.jpg" height="75" width="50" alt="Shopping Cart">
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 class="text-center my-4">Welcome to the B-Shop</h1>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="https://www.bookswagon.com/productimages/images200/537/9788170089537.jpg" alt="Book 1">
+            <div class="card-body">
+              <h5 class="card-title">DBMS Complete Practical Approach</h5>
+              <p class="card-text">Sharad Maheshwari </p>
+              <p class="card-text">Price: ₹569</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="https://www.bookswagon.com/productimages/images200/279/9788193245279.jpg" alt="Book 2">
+            <div class="card-body">
+              <h5 class="card-title">Data Structures and Algorithms Made Easy </h5>
+              <p class="card-text"> Narasimha Karumanchi</p>
+              <p class="card-text">Price: ₹3,709</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTOJJvDrud-Zg6zBDC6wk9do8gUK6eZilYxrMHtaXPRmlk3yLD7woafUaNoUT4KxXU3K4OdKgC1anGjWwO_bCYUGGAVzKdk-MpHb9Btzy_RN2170ClIM1TK&usqp=CAE" alt="Book 2">
+            <div class="card-body">
+              <h5 class="card-title">	
+                Introduction To Automata Theory Languages And Computation</h5>
+              <p class="card-text"> John E. Hopcroft</p>
+              <p class="card-text">Price: ₹693</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRJdwM6K_fL_q81kDveztSzW5xiJhWE8e6qckpxB3V-RAB5TIpgy21vWuLQPfdMO4tO9S3sdOTmwlc_OTr-57R3tXjbacfGthMd_OyYBgri&usqp=CAE" alt="Book 2">
+            <div class="card-body">
+              <h5 class="card-title">Operating System</h5>
+              <p class="card-text"> Harvey M. Deitel </p>
+              <p class="card-text">Price: ₹690</p>
+              <a href="#" class="btn btn-primary">Add to Cart</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more book entries here -->
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-light text-center py-4">
+    <p>&copy; 2023 Bookstore. All rights reserved.</p>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
